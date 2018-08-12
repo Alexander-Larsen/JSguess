@@ -1,0 +1,25 @@
+body {
+	font-family: 'Press Start 2P', cursive;
+	background-color: black;
+	color: green;
+	align-content: center;
+	font-size: 14px;
+	text-align: center;
+	line-height: 24px;
+}
+
+#won {
+	color: orange;
+}
+
+#lost {
+	color: blue;
+}
+
+#attempts {
+	color: yellow;
+}
+
+#playerGuess {
+	color: red;
+}
