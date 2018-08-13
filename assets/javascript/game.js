@@ -24,7 +24,7 @@ document.onkeyup = function (event) {
 		won++;
 		attempts = 10;
 		usedArray = [];
-		alert("Woah you did it! Here's a sword.")
+		alert("Congratulations! You're psychic!")
 	}
 
 //invalid random letter is guessed
@@ -40,12 +40,13 @@ document.onkeyup = function (event) {
 		lost++;
 		usedArray = []
 		attempts = 10;
-		alert("Too many invalid attempts!")
+		alert("You're not a psychic get out of my sight!")
 
 	}
 
 	//prevents user from guessing letter again
 	if (usedArray.indexOf(playerGuess) >= 0) {
+		alert("You guessed that already and it's going to count as one your guesses!")
 
 	} else {
 		usedArray.push(playerGuess);
