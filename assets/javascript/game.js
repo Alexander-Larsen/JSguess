@@ -24,6 +24,7 @@ document.onkeyup = function (event) {
 		won++;
 		attempts = 10;
 		usedArray = [];
+		alert("Woah you did it! Here's a sword.")
 	}
 
 //invalid random letter is guessed
