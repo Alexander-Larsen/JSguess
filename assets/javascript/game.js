@@ -11,7 +11,7 @@ function jsGuess() {
 
 	ranLetter = letters[Math.floor(Math.random() * letters.length)];
 	console.log(ranLetter);
-	
+
 }
 
 //player input
@@ -19,7 +19,7 @@ document.onkeyup = function (event) {
 	var playerGuess = event.key;
 
 
-//if correct random letter is guessed	
+	//if correct random letter is guessed	
 	if (playerGuess === ranLetter) {
 		won++;
 		attempts = 10;
@@ -27,7 +27,7 @@ document.onkeyup = function (event) {
 		alert("Congratulations! You're psychic!")
 	}
 
-//invalid random letter is guessed
+	//invalid random letter is guessed
 	jsGuess();
 	if (playerGuess !== ranLetter) {
 		attempts--;
@@ -60,3 +60,4 @@ document.onkeyup = function (event) {
 	document.getElementById('attempts').innerHTML = attempts;
 
 }
+

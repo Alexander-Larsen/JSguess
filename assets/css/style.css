@@ -6,7 +6,6 @@ body {
 	font-size: 14px;
 	text-align: center;
 	line-height: 24px;
-
 }
 
 .container {
@@ -31,16 +30,39 @@ body {
 	color: red;
 }
 
-
-
 footer {
 	background: green;
 	text-align: center;
 	font-size: 14px;
 	color: grey;
-	padding: 15px;
+	padding: 5px;
 	right: 0;
 	left: 0;
 	bottom: 0;
-  position: absolute;
+	position: absolute;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
 }
